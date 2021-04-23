@@ -1,0 +1,58 @@
+--- Common Questions ---
+- Challenges (C)
+- Mistakes/Failures (M)
+- Enjoyed (E)
+- Leadership (L)
+- Conflicts/Problems (P)
+- What You'd Do Differently (D)
+
+// Brewer (CS tool, PowerBI report, Report scheduling)
+- PowerBI report
+(C) New technology & no idea on PowerBI embed. Faced issues with visual preparation (last 7 / 30 / ... days). Export data from PowerBI to pdf (xls, csv).
+(M) perparing dataset directly in PowerBI.
+(E) Learned technology, developed framework and mindset for learning new technology.
+(L) sole developer to build the report. Gave presentation to stakeholders.
+(P) 
+(D) instead of defining queries directly in PowerBI, will develop sp's and reference those in PowerBI.
+
+- Report scheduling
+(C) research on existing schedulers (like google calendar). database design for scheduler, report template, email template. single/multiple schedules.
+(M) difficulty in bug fixes becuase of less modular code.
+(E) database design. UI for schedule, email template.
+(L) lead dev for report scheduling module.
+(P)
+(D) improve code quality (de-coupled code), modular code, dynamic code.
+
+- CS tool
+(C) addition of phases, drag n drop functionality.
+(M) domain knowledge could be increased.
+(E) working on task scheduler. solved bugs related to functionality and ui.
+(L) database enhancements for stories.
+(P)
+(D) make code more dynamic, and thorough unit testing.
+
+// Waters (Chromatography)
+(C) first real world project. working with a team. desktop application project. device interaction.
+(M) code quality, task analysis.
+(E) learning new technology. design principles & patterns.
+(L) stacked chromatography functionality. core business logic related to devices.
+(P) remote machines were sparse, so has conflicts regarding usability.
+(D) task analysis, unit testing.
+
+--- Weakness ---
+"Sometimes, I don't have a very good attention to detail. While that's good becuase it lets me execute quickly, it also means that I sometimes make careless mistakes. Because of that, I make sure to always have someone else double check my work."
+
+--- Questions to ask interviewer ---
+- Geniune
+1. What is the ratio of testers to developers to program managers? What is the interaction like? How does project planning happen on the team?
+2. What brought you to this company? What has been most challenging for you?
+- Technical
+3.
+4.
+- Passive
+5.
+6.
+
+--- Know Technical Projects ---
+--- Responding to Behavioral Questions ---
+--- Tell me about yourself ---
