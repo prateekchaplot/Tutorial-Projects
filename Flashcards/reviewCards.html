@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous" />
+    <title>Flash Cards</title>
+    <style>
+        #card {
+            width: 100%;
+            background-color: #fafafa;
+            border: 1px solid gray;
+            border-radius: 10px;
+            height: 300px;
+        }
+        .vcenter-item {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col">
+            <div id="card" class="p-3 d-flex justify-content-center align-items-center">
+                <h3 id="frontCard"></h3>
+                <h3 id="backCard"></h3>
+            </div>
+            <p>Card #<output id="cardNum"></output></p>
+            <button type="button" class="btn btn-primary btn-lg btn-block mt-3" id="btnFlip">Flip Card</button>
+        </div>
+        <div class="col">
+            <h2>Review Your Cards</h2>
+            <p>When you want to see the answer or definition, tap on the card and it will appear.</p>
+            <p>Number of Flashcards: <output id="numCards"></output></p>
+        </div>
+    </div>
+
+    <script src="localForage.min.js"></script>
+    <script src="review-flashcards.js"></script>
+    <!-- Bootstrap required libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/popper.min.js" integrity="sha512-eHo1pysFqNmmGhQ8DnYZfBVDlgFSbv3rxS0b/5+Eyvgem/xk0068cceD8GTlJOZsUrtjANIrFhhlwmsL1K3PKg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+</body>
+</html>

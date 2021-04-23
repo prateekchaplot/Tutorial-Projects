@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous" />
+    <title>Flash Cards</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Flashcards</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <form>
+                    <label for="frontCard">Front of Card (Term or Question)</label>
+                    <textarea id="frontCard" class="form-control" rows="3"></textarea>
+                    <label for="backCard">Back of Card (Definition or Answer)</label>
+                    <textarea id="backCard" class="form-control" rows="3"></textarea>
+                    <button type="button" class="btn btn-primary btn-lg btn-block mt-3" id="btnSave">Save Card</button>
+                    <button type="button" class="btn btn-primary btn-lg btn-block mt-3" id="btnReview" onclick="location.href = './reviewCards.html'">Review Cards</button>
+                </form>
+            </div>
+            <div class="col">
+                <h2>Make a Flash Card</h2>
+                <p>Let's make a flash card. On the front of the flash card put the term or question you're trying to remember and the definition or answer on the back.</p>
+                <p>Number of Flashcards: <output id="numCards"></output></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="localForage.min.js"></script>
+    <script src="flashcards.js"></script>
+    <!-- Bootstrap required libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/popper.min.js" integrity="sha512-eHo1pysFqNmmGhQ8DnYZfBVDlgFSbv3rxS0b/5+Eyvgem/xk0068cceD8GTlJOZsUrtjANIrFhhlwmsL1K3PKg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+</body>
+</html>

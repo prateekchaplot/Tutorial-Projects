@@ -1,0 +1,1 @@
+const key = "QZ26-55TJ-97GT-DWEI";
